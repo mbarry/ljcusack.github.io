@@ -3,6 +3,7 @@ layout: post
 title:  "Semester break"
 date:   2015-07-25 15:51:25
 categories: reflections git lynda
+tags: reflections git lynda
 ---
 
 For the break I had two main goals I wanted to achieve. One: to move to
