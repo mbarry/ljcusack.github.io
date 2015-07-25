@@ -7,11 +7,11 @@ description: Blog posts from a Computer Science student.
 #  line in _config.yml. It will appear in your document head meta (for
 #  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.ljcusack.id.au" # the base hostname & protocol for your site
-timezone: Sydney/Australia
+url: "http://blog.ljcusack.id.au" # the base hostname & protocol for your site
+timezone: Australia/Sydney
 #twitter_username: jekyllrb
 github_username:  ljcusack
-linkedin: ljcusack
+linkedin_username: ljcusack
 
 # Build settings
 markdown: kramdown
