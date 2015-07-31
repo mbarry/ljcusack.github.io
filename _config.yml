@@ -1,17 +1,20 @@
-# Site settings
 title: Luke Cusack
-email: cusack.luke@gmail.com
-description: Blog posts from a Computer Science student.
-# this means to ignore newlines until "baseurl:"
-#  Write an awesome description for your new site here. You can edit this
-#  line in _config.yml. It will appear in your document head meta (for
-#  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://blog.ljcusack.id.au" # the base hostname & protocol for your site
-timezone: Australia/Sydney
-#twitter_username: jekyllrb
-github_username:  ljcusack
+baseurl: ""
+
+author: Luke Cusack
+username: ljcusack
+date_format: "%-d %B %Y"
+
+tagline: Blog posts from a Computer Science student.
+
+github_username: ljcusack
 linkedin_username: ljcusack
 
+google_analytics:
+disqus_shortname:
+
 # Build settings
-markdown: kramdown
+markdown:     redcarpet
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty

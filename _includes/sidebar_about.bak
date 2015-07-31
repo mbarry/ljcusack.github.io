@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+
+<article class="sidebar_about">
+<p class="tagline">Find me at..</p>
+<ul style="list-style:none">
+   <li><a href="https://github.com/{{ site.github_username }}">github</a></li>
+   <li><a href="https://au.linkedin.com/in/{{ site.linkedin_username }}">linkedin</a></li>
+</ul>
+</article>

@@ -13,10 +13,6 @@ main {
         }
     }
     .site-nav {
-        vertical-align: middle;
-        text-align: right;
-        margin-top: 9px;
-        margin-right: 50px;
         > a {
             color: $text-color;
             &:hover {
@@ -26,15 +22,10 @@ main {
                 border-bottom: 2px solid #666;
             }
             + a {
-                margin-left: 0.5rem;
-                margin-right: 0.5rem;
+                margin-left: 1rem;
             }
         }
     }
-   .tagline {
-      font-size: $small-font-size;
-      color: $text-color;
-   }
 }
 .posts {
     list-style: none;
@@ -51,6 +42,12 @@ main {
             text-decoration: none;
         }
     }
+   .post-date {
+      font-family: 'Monaco';
+   }
+   .post-excerpt {
+      color: red;
+   }
 }
 .post {
     position: relative;
@@ -64,6 +61,7 @@ main {
         color: $meta-color;
         font-size: $small-font-size;
     }
+
 }
 @media screen and (max-width: 48rem) {
     .site-header {
@@ -72,45 +70,4 @@ main {
             text-align: center;
         }
     }
-}
-
-.sidebar_about {
-   color: red;
-   font-size: $small-font-size;
-   margin-left: 10px;
-   margin-top: 20px;
-   text-align: left;
-   .tagline {
-      color: $text-color;
-   }
-   a {
-      color: $text-color;
-      text-decoration: none;
-      &:hover {
-         text-decoration: none;
-      }
-   }
-   > td {
-      color: red;
-      text-align:right;
-   }
-}
-.footer {
-  
-   margin-right: 50px;
-   text-align: right;
-
-   > a {
-     color: $text-color;
-      &:hover {
-          text-decoration: none;
-      }
-      &.active {
-          border-bottom: 2px solid #666;
-      }
-      + a {
-          margin-left: 0.5rem;
-          margin-right: 2rem;
-      }
-   }
 }
