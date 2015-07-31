@@ -24,7 +24,7 @@ my linkedin portfolio and resume.
 
 
 # This blog
-Purpose: to reflect on whatever I'm learning at that point in time, as I
+Purpose: to reflect on whatever I'm learning at that point in time as I
 venture through my CS degree, and any achievements I wish to note.
 
 
