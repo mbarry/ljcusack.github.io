@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "New theme"
+date:   2015-07-31 12:57:25
+categories: vida blog 
+tags: vida blog 
+---
+
+I've pushed a new theme, one that I've taken from 'Vida' and edited to
+mine own liking. It was pretty finicky in doing so and things still
+aren't quite right with it. But it's something other than the default so
+that's okay.
+
+I've learned that I will need to continue blogging for one of my
+courses, so I hope to learn to write some sort of script that I can use
+to transfer my blog posts from there to here. A little backstory: for my
+first computing course we were required to blog, so that got me in the
+habit of blogging and which is why I set this page up.
